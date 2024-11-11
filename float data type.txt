@@ -1,0 +1,21 @@
+package datatype;
+
+public class floatingtype 
+{
+	public static void main(String args[])
+	   {
+		  float num= 12.43F;
+		  double num1=1334.67;
+		 
+                  System.out.println(num);
+		  
+                  System.out.println(num1);
+		
+	   }
+
+}
+
+
+
+
+

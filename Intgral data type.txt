@@ -1,0 +1,27 @@
+package datatype;
+
+
+
+public class integral
+{
+	public static void main(String args[])
+	   {
+	        byte num= 12;
+		short num1=123;
+		int num2= 1324;
+		long num3= 123256675L;
+		
+                System.out.println(num);
+		
+                System.out.println(num1);
+		
+                System.out.println(num2);
+		
+                System.out.println(num3);
+
+		
+	   }
+
+}
+
+

@@ -1,0 +1,27 @@
+ Write a program to input two numbers and find the maximum between two numbers using the conditional/ternary operator.
+
+package Arraysprogram;
+
+import java.util.Scanner;
+
+public class Maxnumber
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the first number");
+        int num1=sc.nextInt();
+        System.out.println("Enter the second number");
+        int num2=sc.nextInt();
+        int max = (num1 > num2) ? num1 : num2;        
+        	System.out.println("The maximum number is: " + max);         
+        	
+        
+	}
+}
+
+    OUTPUT
+
+Enter the first number: 8
+Enter the second number: 12
+The maximum number is: 12

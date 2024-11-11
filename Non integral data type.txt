@@ -1,0 +1,19 @@
+package datatype;
+
+public class nonintegral {
+
+
+public static void main(String args[])
+{
+	  char s= 'A';
+	  String s1=" Hello";
+			  
+	System.out.println(s);
+	System.out.println(s1);
+	
+}
+}
+
+
+
+

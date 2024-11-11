@@ -1,0 +1,140 @@
+public static void main(String []args)
+{
+  String s= "janhvi";
+String n="VIPUL";
+System.out.println(s.touppercase());
+System.out.println(n.tolowercase());
+}
+ ------------------------------------------------------------------------------------------------------------------------------------------
+REVERSE STRING
+
+ public ststiv void main(String[]args)
+{
+STRING S="janhvi";
+String n=" ";
+System.out.println("original String is"+s);
+for (int i=0;i<s.lenght;i++)
+{
+  n=s.charAt[i]+n;
+}
+System.out.println("Reverse String is"+n);
+}
+-----------------
+BY USING ARRAY
+
+public static void main(String[]args)
+{
+int[]a={1,2,3,5,4};
+for(int i=0;i<a.length;i++)
+{
+int temp=a[i];
+a[i]=a[a.length-1-i];
+
+a[a.length-1-i]=a[i];
+
+}
+for(int i=0;i<a.length;i++)
+{
+  System.out.println(a[i]);
+}
+}
+-----------------------
+
+REVERSE USING STACK
+
+
+public static String ReverseString(String str)
+{
+  char[]ch=new char[str.length()];
+stack<character>stack=new stack<character>();
+for(int i=0;i.str.length;i++)
+{
+  stack.push(str.charAt(i));
+
+}
+int i=0;
+while(!stack.isempty())
+{
+  ch[i++]=stack.pop;
+
+}
+ retrun new String(ch);
+}
+public static void main(String[]args)
+{
+String str="hello janhvi";
+System.out.println(str+"<-reversestring->"+ReverseString (str))
+
+String st1r="bye vipul";
+System.out.println(str1+"<-reversestring->"+ReverseString (str1))
+}
+---------------
+Swap Corner Words and Reverse Middle Characters of a String
+
+public static void swap(String m.int length)
+{
+  String first=" ";
+String middle=" ";
+String last=" ";
+int index=0;
+for(index=0;index<length;index++)
+{
+if(m.charAt(index)==32)
+{
+break;
+}
+last+=m.charAt(index);
+}
+int index1=0;
+for(index1=length-1;index1>=0;index1--)
+{
+ if(m.charAt(index1)==32)
+{
+break;
+}
+first+=m.charAt(index1)+first;
+}
+for(int i=index1-1;i>index;i++)
+{
+if(m.charAt(i)==32)
+{
+middle+=" ";
+}
+else
+{
+middle+=m.charAt(i);
+}
+}
+System.out.println(first+" "+middle+" "last+);
+} 
+public static void main(String[]args)
+{
+  Strting m="how are you janhvi";
+int index=m.length();
+swap(m,index);
+}
+--------------------------------------------------------------------------------------------------------------------
+COUNT DOUBLICAT CHARACTER FROM STRING
+
+public static void Doblicatchar(String []args)
+{
+String input="tambavekar";
+countDoublicatchars(input);
+}
+public static void countDoublicatchars(String str)
+{
+ HashMap<character ,Integer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
